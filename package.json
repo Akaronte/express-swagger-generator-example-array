@@ -1,6 +1,6 @@
 {
-  "name": "express-swagger-generator",
-  "version": "1.1.17",
+  "name": "express-swagger-generator-example-array",
+  "version": "1.1.19",
   "description": "Generates swagger doc & ui based on express existing routes.",
   "main": "index.js",
   "scripts": {},
