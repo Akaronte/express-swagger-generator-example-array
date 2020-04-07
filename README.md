@@ -48,6 +48,20 @@ Open http://<app_host>:<app_port>/api-docs in your browser to view the documenta
 #### How to document the API
 
 ```
+
+/**
+ * @route POST /jenkins/deploy
+ * @group jenkins - Operations about jenkins
+ * @param {string} somebody[somebody=John Doe] description
+ * @returns {object} 200 - 
+ * @returns {Error}  default - Unexpected error
+ * @produces application/json
+ * @consumes application/json
+ * 
+ */
+
+
+
   /**
   * @typedef virtualNameModel  
   * @property {string} virtualName.required  - Virtual Name definition - eg: "google.es"
